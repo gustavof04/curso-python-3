@@ -75,7 +75,7 @@ O programa é uma ista de compras onde o usuário tem a possibilidade de inserir
 
 * Exercício 11 - Validador de CPF
 
-Este programa tem como objetivo validar a autenticidade de um número de CPF informado pelo usuário. O CPF é um documento de identificação muito importante no Brasil, composto por onze dígitos, sendo os dois últimos utilizados para a verificação de sua validade.
+Este programa tem como objetivo validar a autenticidade de um número de CPF informado pelo usuário. O CPF é um documento de identificação muito importante no país, composto por onze dígitos, sendo os dois últimos utilizados para a verificação de sua validade.
 
 O programa utiliza um cálculo que consiste em multiplicar cada um dos nove primeiros dígitos do CPF por uma contagem regressiva iniciada em 10 e terminando em 2. O resultado da soma dessas multiplicações é multiplicado por 10 e, em seguida, dividido por 11, e o resto dessa divisão é utilizado para determinar o primeiro dígito verificador do CPF.
 
