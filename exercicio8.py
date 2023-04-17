@@ -24,9 +24,9 @@ tentativas = 0
 
 # Loop principal do jogo
 while "_" in palavra_adivinhada and tentativas < len(palavra_secreta):
-    letra = input('Digite uma letra: ')
+    letra = input('Digite uma letra maiúscula: ')
     if not letra.isupper():
-        print('Por favor, digite uma letra maiúscula.')
+        print('Erro! O sistema suporta apenas letras maiúsculas.')
         continue
     if letra in palavra_secreta:
         for i in range(len(palavra_secreta)):
@@ -39,5 +39,5 @@ while "_" in palavra_adivinhada and tentativas < len(palavra_secreta):
 if "_" not in palavra_adivinhada:
     print('Parabéns, você escapou da forca!')
 else:
-    print('Você perdeu, a palavra era', ''.join(palavra_secreta))
+    print('Você foi enforcado, a palavra era', ''.join(palavra_secreta))
 print(f'Você errou', tentativas, 'vezes.')

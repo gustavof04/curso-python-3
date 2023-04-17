@@ -1,4 +1,6 @@
 # Exercício - Calculadora com while
+import os
+import platform
 
 print('Bem-vindo à calculadora Python!')
 while True:
@@ -56,6 +58,10 @@ while True:
         print('Você saiu da calculadora.')
         break
     elif sair.startswith('n'):
+        if platform.system() == 'Windows':
+            os.system('cls')
+        else:
+            os.system('clear')
         print('Você optou por ficar!')
         continue
     else: 
