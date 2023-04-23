@@ -1,9 +1,7 @@
+import random
 # Exercício - Jogo da Forca 
 # (modificado por mim com o objetivo de ficar  
 # mais intuitivo e desafiador para o usuário)
-
-import os 
-import random
 
 print ('Bem-vindo(a) ao jogo da forca!')
 
@@ -24,9 +22,9 @@ tentativas = 0
 
 # Loop principal do jogo
 while "_" in palavra_adivinhada and tentativas < len(palavra_secreta):
-    letra = input('Digite uma letra maiúscula: ')
+    letra = input('Digite uma letra: ')
     if not letra.isupper():
-        print('Erro! O sistema suporta apenas letras maiúsculas.')
+        print('Por favor, digite uma letra maiúscula.')
         continue
     if letra in palavra_secreta:
         for i in range(len(palavra_secreta)):

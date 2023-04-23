@@ -1,8 +1,8 @@
+import copy
 # copy, sorted, produtos.sort
 # Exercícios
 # Aumente os preços dos produtos a seguir em 10%
 # Gere novos_produtos por deep copy (cópia profunda)
-import copy
 
 produtos = [
     {'nome': 'Produto 5', 'preco': 10.00},

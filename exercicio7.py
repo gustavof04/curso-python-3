@@ -1,6 +1,6 @@
-# Exercício - Calculadora com while
 import os
 import platform
+# Exercício - Calculadora com while
 
 print('Bem-vindo à calculadora Python!')
 while True:

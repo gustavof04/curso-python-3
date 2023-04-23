@@ -1,3 +1,5 @@
+import os
+import platform
 '''
 Exercício - Lista de Compras
 Faça uma lista de compras com listas
@@ -6,9 +8,6 @@ inserir, apagar e listar valores da sua lista
 Não permita que o programa quebre com
 erros de índices inexistentes na lista. 
 '''
-
-import os
-
 lista = []
 
 while True:
@@ -16,7 +15,10 @@ while True:
     opcao = input('[i]nserir [a]pagar [l]istar: ')
 
     if opcao == 'i':
-        os.system('cls')
+        if platform.system() == 'Windows':
+            os.system('cls')
+        else:
+            os.system('clear')
         valor = input('Valor: ')
         lista.append(valor)
     elif opcao == 'a':
@@ -34,7 +36,10 @@ while True:
         except Exception:
             print('Erro desconhecido')
     elif opcao == 'l':
-        os.system('cls')
+        if platform.system() == 'Windows':
+            os.system('cls')
+        else:
+            os.system('clear')
 
         if len(lista) == 0:
             print('Nada para listar')
