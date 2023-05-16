@@ -117,10 +117,34 @@ Em seguida, o código define uma lista de listas de números inteiros chamada "l
 
 * Exercício 16 - Ordenação e deep copy de lista de dicionários de produtos
 
-Esse código aumenta o preço de uma lista de produtos em 10%, gera cópias profundas da lista original, ordena a lista de produtos por nome em ordem decrescente e depois por preço em ordem crescente, gerando novas cópias profundas para cada uma dessas listas ordenadas. Por fim, o código imprime as listas ordenadas por nome e por preço.
+Este código aumenta o preço de uma lista de produtos em 10%, gera cópias profundas da lista original, ordena a lista de produtos por nome em ordem decrescente e depois por preço em ordem crescente, gerando novas cópias profundas para cada uma dessas listas ordenadas. Por fim, o código imprime as listas ordenadas por nome e por preço.
 
 ============================================
 
 * Exercício 17 - Criação de closures
 
 O código permite que funções sejam criadas de forma dinâmica e adiada, permitindo que seus parâmetros sejam especificados em um momento posterior, é o chamado 'closure' de funções.
+
+============================================
+
+* Exercício 18 - zip / zip_longest
+
+Este código tem como objetivo praticar o uso da função zip ou zip_longest para unir duas listas na ordem. A ideia é que a função "zipper" possa usar todos os valores da menor lista e juntá-los em tuplas com os valores correspondentes da outra lista. O código apresenta dois exemplos de como utilizar as funções zip e zip_longest para atingir esse objetivo, demonstrando suas diferenças e vantagens em diferentes situações. 
+
+============================================
+
+* Exercício 19 - Somando Listas
+
+A função recebe duas listas de inteiros ou floats e retorna uma nova lista com os valores somados em pares, elemento a elemento. Caso uma lista seja maior que a outra, apenas os elementos até o tamanho da menor lista serão considerados na soma. Fiz uso da função zip() para iterar simultaneamente sobre as duas listas, somando os elementos em cada par. Caso as listas tenham tamanhos diferentes, pode-se utilizar a função zip_longest() para preencher com um valor padrão (por padrão, None) os elementos faltantes de qualquer uma das sequências. A solução apresentada usa a função zip() em conjunto com list comprehension para gerar a nova lista com os valores somados. Também é apresentada uma solução alternativa que utiliza um loop for para percorrer as listas e somar os valores em cada posição, gerando a nova lista com os resultados.
+
+============================================
+
+* Exercício 20 - Lista TODO com desfazer e refazer
+
+Este programa é uma lista de tarefas que permite o usuário adicionar, listar, desfazer e refazer tarefas. As tarefas adicionadas são armazenadas em uma lista todo, enquanto as tarefas desfeitas são armazenadas em uma lista undo e as refeitas em uma lista redo. O programa também usa o módulo 'os' para limpar a tela do console após cada comando, e o módulo json para salvar as tarefas em um arquivo tasks.json. O usuário pode sair do programa digitando "sair", o que exclui o arquivo tasks.json.
+
+============================================
+
+* Exercício 21 - Salvando instâncias de classes em .json
+
+Este código tem o objetivo proposto de salvar as instâncias de uma classe em arquivos JSON e, em seguida, recuperá-las desses arquivos. O código cria uma lista de instâncias da classe ComputerSell e salva cada instância em um arquivo JSON separado usando um loop for. Em seguida, o código lê cada arquivo JSON e cria uma nova instância da classe com base nos dados do arquivo.
