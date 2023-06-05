@@ -148,3 +148,15 @@ Este programa é uma lista de tarefas que permite o usuário adicionar, listar, 
 * Exercício 21 - Salvando instâncias de classes em .json
 
 Este código tem o objetivo proposto de salvar as instâncias de uma classe em arquivos JSON e, em seguida, recuperá-las desses arquivos. O código cria uma lista de instâncias da classe ComputerSell e salva cada instância em um arquivo JSON separado usando um loop for. Em seguida, o código lê cada arquivo JSON e cria uma nova instância da classe com base nos dados do arquivo.
+
+============================================
+
+* Exercício 22 - Exercício com classes
+
+Este código apresenta uma implementação básica de classes relacionadas a carros, motores e fabricantes. Ele demonstra como essas classes podem ser interligadas para representar a relação entre eles.
+
+============================================
+
+* Exercício 23 - Banco com Abstração, Herança, Encapsulamento e Polimorfismo
+
+Sistema bancário simples utilizando classes juntamente com os pilares da Programação Orientada a Objetos. Faça alterações em main.py e execute-o para testar diferentes atributos e valores.
