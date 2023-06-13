@@ -160,3 +160,23 @@ Este código apresenta uma implementação básica de classes relacionadas a car
 * Exercício 23 - Banco com Abstração, Herança, Encapsulamento e Polimorfismo
 
 Sistema bancário simples utilizando classes juntamente com os pilares da Programação Orientada a Objetos. Faça alterações em main.py e execute-o para testar diferentes atributos e valores.
+
+============================================
+
+* Exercício 24 - Informações de parcelamento com os módulos datetime e dateutil
+
+Esse código é um exemplo de como calcular e printar parcelas de um empréstimo em um determinado período de tempo. 
+
+OBS:. Para testar, crie um ambiente virtual estando na pasta raiz dos exercícios:
+
+<code>python -m venv venv</code>
+
+Depois ative-o:
+
+<code>.\nome_da_virtualenv\Scripts\activate</code> (Windows)
+
+<code>source nome_da_virtualenv/bin/activate</code> (Linux ou macOS)
+
+Instale os requisitos:
+
+<code>pip install -r requirements.txt</code>
